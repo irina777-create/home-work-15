@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  color: #212529;
+  background-color: #ffffff;
+}
+
+.site-header,
+.left-column,
+.main-column,
+.right-column,
+.site-footer {
+  border: 1px solid #dee2e6;
+  background-color: #f8f9fa;
+}
+
+.site-header,
+.site-footer {
+  padding: 2rem;
+}
+
+.left-column,
+.main-column,
+.right-column {
+  height: 100%;
+  padding: 2rem;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.navbar-nav .nav-link {
+  color: #212529;
+}
+.navbar-nav .nav-link:hover, .navbar-nav .nav-link:focus {
+  color: #0d6efd;
+}
+
+.dropdown-menu {
+  border-color: #dee2e6;
+}
+
+.accordion {
+  text-align: left;
+}
+.accordion .accordion-button {
+  font-weight: 600;
+}
+.accordion .accordion-button:not(.collapsed) {
+  color: #ffffff;
+  background-color: #0d6efd;
+}
+.accordion .accordion-button:focus {
+  border-color: #0d6efd;
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.accordion .accordion-body {
+  background-color: #ffffff;
+}
+
+@media (max-width: 767.98px) {
+  .site-header,
+  .site-footer,
+  .left-column,
+  .main-column,
+  .right-column {
+    padding: 1.25rem;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
